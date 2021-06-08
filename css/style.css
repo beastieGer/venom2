@@ -15,12 +15,12 @@ body {
 
 	width: 1366px;
 	height: 830px;
-	background: linear-gradient(
+	/* background: linear-gradient(
 			0deg,
 			rgba(20, 19, 26, 0.9),
 			rgba(20, 19, 26, 0.9)
-		),
-		url(/img/venom-fon.jpg) no-repeat center center;
+		), */
+	background: url(./img/venom-fon.jpg) no-repeat center center;
 	background-size: cover;
 }
 .header {
@@ -105,7 +105,7 @@ body {
 	width: 15px;
 	height: 15px;
 	vertical-align: middle;
-	background-image: url(/img/arrow.svg);
+	background-image: url(./img/arrow.svg);
 }
 .venom__button-premier {
 	font-size: 14px;
@@ -120,5 +120,5 @@ body {
 	width: 15px;
 	height: 15px;
 	vertical-align: middle;
-	background-image: url(/img/ticket.png);
+	background-image: url(./img/ticket.png);
 }
