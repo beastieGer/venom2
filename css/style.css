@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+
+	font-family: "Roboto", sans-serif;
+}
+.container {
+	position: relative;
+	overflow: hidden;
+
+	padding-top: 40px;
+	padding-left: 110px;
+
+	width: 1366px;
+	height: 830px;
+	background: linear-gradient(
+			0deg,
+			rgba(20, 19, 26, 0.9),
+			rgba(20, 19, 26, 0.9)
+		),
+		url(/img/venom-fon.jpg) no-repeat center center;
+	background-size: cover;
+}
+.header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 80px;
+}
+.header__logo {
+	margin-right: 52px;
+}
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	width: 321px;
+}
+
+.header__menu a {
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+}
+
+/* SECTION */
+
+.venom__blood {
+	position: absolute;
+	top: 30px;
+	left: 552px;
+	z-index: 2;
+}
+.venom__venomRRR {
+	width: 626px;
+	height: 724px;
+	position: absolute;
+	top: 12px;
+	left: 788px;
+	z-index: 4;
+
+	box-shadow: 0px 4px 150px rgba(35, 0, 6, 0.2);
+	box-shadow: 0px 4px 69px rgba(35, 0, 6, 0.5);
+	transform: matrix(0.99, 0.11, 0.11, 0.99, 0, 0);
+}
+.venom__data {
+	margin: 0;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 38px;
+}
+.venom__venom2 {
+	margin-bottom: 40px;
+	position: relative;
+	z-index: 3;
+}
+.venom__text {
+	width: 423px;
+	font-size: 16px;
+	line-height: 140%;
+	color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 70px;
+}
+.venom__button {
+	width: 415px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.venom__button-trailer {
+	padding: 15px 30px;
+	background: #ffffff;
+	border-radius: 5px;
+
+	font-size: 14px;
+	line-height: 16px;
+	color: #8d0019;
+	text-decoration: none;
+}
+.venom__button-trailer:before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background-image: url(/img/arrow.svg);
+}
+.venom__button-premier {
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.venom__button-premier:before {
+	margin-right: 10px;
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	background-image: url(/img/ticket.png);
+}
