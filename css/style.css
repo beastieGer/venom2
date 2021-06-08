@@ -15,12 +15,12 @@ body {
 
 	width: 1366px;
 	height: 830px;
-	/* background: linear-gradient(
+	background: linear-gradient(
 			0deg,
 			rgba(20, 19, 26, 0.9),
 			rgba(20, 19, 26, 0.9)
-		), */
-	background: url(../img/venom-fon.jpg) no-repeat center center;
+		),
+		url(../img/venom-fon.jpg) no-repeat center center;
 	background-size: cover;
 }
 .header {
@@ -60,8 +60,8 @@ body {
 	left: 788px;
 	z-index: 4;
 
-	box-shadow: 0px 4px 150px rgba(35, 0, 6, 0.2);
-	box-shadow: 0px 4px 69px rgba(35, 0, 6, 0.5);
+	/* box-shadow: 0px 4px 150px rgba(35, 0, 6, 0.2);
+	box-shadow: 0px 4px 69px rgba(35, 0, 6, 0.5); */
 	transform: matrix(0.99, 0.11, 0.11, 0.99, 0, 0);
 }
 .venom__data {
